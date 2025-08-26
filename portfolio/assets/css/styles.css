@@ -77,8 +77,8 @@ img{max-width:100%;display:block}
 @media (max-width: 900px){
   .hero{grid-template-columns:1fr;gap:22px;padding:72px 0}
   .hero-visual{order:-1}
-  .site-nav{position:fixed;inset:64px 0 auto;display:grid;gap:10px;background:rgba(11,15,23,.95);border-bottom:1px solid var(--border);padding:14px 4%;transform:translateY(-120%);transition:transform .25s ease}
-  .site-nav.open{transform:translateY(0)}
+  .site-nav{position:fixed;inset:64px 0 auto;display:none;gap:10px;background:rgba(11,15,23,.95);border-bottom:1px solid var(--border);padding:14px 4%;transform:translateY(-120%);transition:transform .25s ease;z-index:100}
+  .site-nav.open{display:grid;transform:translateY(0)}
   .nav-toggle{display:flex}
 }
 
