@@ -98,3 +98,11 @@ img{max-width:100%;display:block}
   --border:#1e293b;
 }
 body{background: radial-gradient(1200px 600px at 80% -10%, #0a1630 0%, var(--bg) 60%), var(--bg);} 
+
+/* Round headshot */
+.hero-visual .photo-wrap{width:240px;height:240px;border-radius:50%;padding:6px;background:linear-gradient(135deg,#0b253a,#0a1222)}
+.hero-photo{border-radius:50%;object-fit:cover}
+
+/* Round headshot */
+.hero-visual .photo-wrap{width:240px;height:240px;border-radius:50%;padding:6px;background:linear-gradient(135deg,#0b253a,#0a1222)}
+.hero-photo{border-radius:50%;object-fit:cover}
