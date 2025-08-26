@@ -34,6 +34,9 @@ img{max-width:100%;display:block}
 .hero{display:grid;grid-template-columns:1.2fr .8fr;gap:32px;align-items:center;min-height:72svh;padding:96px 0}
 .hero-text h1{font-size:clamp(2rem,5vw,3rem);margin:0 0 8px}
 .tagline{color:var(--brand);font-weight:600;margin:0 0 10px}
+.tagline{display:flex;flex-direction:column;gap:6px}
+.tagline .role{font-size:clamp(1.05rem,2.4vw,1.35rem);color:var(--text)}
+.tagline .xp{color:var(--brand);opacity:.95}
 .hero-sub{color:var(--muted);max-width:65ch}
 .hero-cta{display:flex;gap:14px;margin-top:20px}
 
